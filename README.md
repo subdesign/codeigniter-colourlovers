@@ -12,7 +12,7 @@ Simple usage:
 
 ```php
 
-$this->load->library('CIColourlovers');
+$this->load->library('cicolourlovers');
 $result = $this->cicolourlovers->colors();
 ```
 
