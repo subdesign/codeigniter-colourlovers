@@ -10,39 +10,24 @@ Copy the files to their appropriate folders, then set up the config file.
 
 Simple usage:
 
-```php
-
-$this->load->library('cicolourlovers');
-$result = $this->cicolourlovers->colors();
-```
+	$this->load->library('cicolourlovers');
+	$result = $this->cicolourlovers->colors();
 
 Adding parameters:
 
-```php
-
-$result = $this->cicolourlovers->colors(array('numResults' => 10, 'sortBy' => 'DESC'));
-```
+	$result = $this->cicolourlovers->colors(array('numResults' => 10, 'sortBy' => 'DESC'));
 
 Get back one color info (hex value):
 
-```php
-
-$result = $this->cicolourlovers->color('AA44F2');
-```
+	$result = $this->cicolourlovers->color('AA44F2');
 
 Get back a specific id paletter:
 
-```php
-
-$result = $this->cicolourlovers->palette(12345);
-```
+	$result = $this->cicolourlovers->palette(12345);
 
 Overwrite config setting:
 
-```php
-
-$result = $this->cicolourlovers->colors(array('format' => 'json'));
-```
+	$result = $this->cicolourlovers->colors(array('format' => 'json'));
 
 You can find the full list of methods at [www.colourlovers.com/api](www.colourlovers.com/api)
 
