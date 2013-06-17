@@ -21,7 +21,7 @@ Get back one color info (hex value):
 
 	$result = $this->cicolourlovers->color('AA44F2');
 
-Get back a specific id paletter:
+Get back a specific id palette:
 
 	$result = $this->cicolourlovers->palette(12345);
 
